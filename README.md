@@ -1,6 +1,6 @@
 # DevSecOps CI/CD Pipeline
 
-This project contains a Node.js/Express API and a GitHub Actions pipeline that runs security and quality checks automatically.
+This project contains a Node.js/Express API and a GitHub Actions pipeline that runs security and quality checks automatically. ..
 
 The pipeline checks:
 
