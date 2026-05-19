@@ -11,7 +11,7 @@ The pipeline checks:
 - Docker image build and vulnerability scanning
 - code quality gate with SonarQube Cloud
 - Docker image publishing to GHCR after all gates pass
-readme
+
 ## Architecture
 
 ```mermaid
@@ -32,7 +32,6 @@ flowchart LR
     I -->|Yes on main| J["Publish Image to GHCR"]
     I -->|No| K["Fail Workflow"]
 ```
-
 ## Stack
 
 - Node.js 24 LTS and Express
