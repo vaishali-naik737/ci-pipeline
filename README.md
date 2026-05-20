@@ -32,7 +32,7 @@ flowchart LR
     I -->|Yes on main| J["Publish Image to GHCR"]
     I -->|No| K["Fail Workflow"]
 ```
-devops security
+<--SECURITY CICD PIPELINE-->
 ## Stack
 
 - Node.js 24 LTS and Express
